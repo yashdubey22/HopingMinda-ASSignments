@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.topmain{
+    height: 100vh;
+    background: url(../Images/niggaBG.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    background-size: cover;
+}
+
+ul > li {
+    display: inline-flex;
+    margin-left: 10px;
+}
+.navbar{
+    padding: 10px;
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+h3, ul{
+    width: max-content;
+}
+.navbar > .cntrdivmain{
+    margin: 0px 10px;
+}
+
+.cntrdiv{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.cntrdiv > div{
+    font-weight: bolder;
+}
+.corr > div > img {
+    width: 100px;
+}
+.corr{
+    height: 35em;
+    width: 55em;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+}
+.corr  > div{
+   margin: 8px;
+   border-radius: 10px;
+   padding: 30px 18px;
+}
+.div {
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    background-color: rgb(71, 220, 74);
+}
+.div1{
+    background-color: #DBD6CC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div2{
+    background-image: url(../Images/Aprain_aunty.png);
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.div3{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    background-image: url(../Images/moneybg.jpeg);
+    background-size: cover;
+}
+.div4{
+    grid-row-start: 1;
+    grid-column-start: 3;
+    background-image: url(../Images/redheadlaptop.webp);
+    background-size: cover;
+}
+.div5{
+    color: #fff;
+    grid-column-start: 3;
+    padding: 20px 0px;
+    background-color: #5E6054;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cntr{
+    display: grid;
+    justify-content: center;
+}
+.cntrdivmain{
+    padding: 10px;
+    margin: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cntrdivmain > section > h1{
+    font-size: 69px;
+}
+.cntrdivmain > section > button{
+    background-color: #161618;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.moneyCorr{
+    display: flex;
+    padding: 10px;
+    margin: 44px 44%;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 207px;
+    width: 320px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+}
+
+.moneyCorr > .btn > button{
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+button > a{
+    color: #fff;
+    text-decoration: none;
+}
+.btn{
+    margin: 12px 0px;
+}
+.TotalBal{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.TotalBal > div > button{
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #000000;
+}
+.TotalBal > img{
+    border-radius: 6px;
+   width: 40px;
+}
+.spotify{
+    margin:  15px 0px;
+}
+.TBSOPT{
+    padding: 6px;
+    background: #fff;
+    color: #000;
+    border-radius: 6px;
+}
+.TBSOPT > h2{
+    margin-top: 3px;
+}
+.transfeered > p{
+    margin-top: 10px;
+}
+
+/* About US page  */
+
+.pagediv1{
+    height: 100vh;
+    padding: 100px;
+    background: url(../Images/Bg_blax_deg.png);
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+}
+section > h1{
+    font-size: xxx-large;
+}
+.right{
+    flex-direction: column;
+    display: flex;
+    width: 39em;
+}
+.left{
+    margin-left: 5em;
+    padding-left: 2em;
+}
+.lilright{
+    padding-left: 10em;
+}
+.lastbtn > button{
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.left > img{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+.money{
+    display: flex;
+    margin: 40px 0px;
+}
+.money > div {
+    margin-right: 76px;
+}
+.money > div > p{
+    font-size: x-small;
+}
+.titlemid{
+    text-align: center;
+    margin-top: 105px;
+    margin-bottom: 45px;
+}
+.titlemid > h1{
+    font-size: 75px;
+}
+.pagediv3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.alighimg{
+    width: 200px;
+}
+.widauto {
+    width: auto;
+}
+.pagediv3 > .box1{
+    margin: 15px;
+    border-radius: 11px;
+    width: 25em;
+    background-color: #EFEDEC;
+}
+.pagediv3> .box2{
+    margin: 15px;
+    border-radius: 11px;
+    width: 25em;
+    background-color: #EBEFF4;
+}
+.last{
+    display: flex;
+    justify-content: center;
+}
+.ques{
+    margin: 15px;
+    border-radius: 11px;
+    width: 25em;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}

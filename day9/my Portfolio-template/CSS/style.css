@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-block-end: 25px solid #F3F3F3;
+}
+.div2{
+    padding-bottom: 15px;
+    border-block-end: 25px solid #F3F3F3;
+}
+.div3{
+    border-block-end: 25px solid #F3F3F3;
+}
+.navbar > h2 > a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff ;
+}
+.top{
+    background-color: #EEA020;
+    color: #fff;
+    width: -webkit-fill-available;
+    height: 7em;
+}
+.top > h1{
+    margin-top: 0.5em;
+}
+.top > .navbar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.bottom{
+    width: -webkit-fill-available;
+    height: 7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+}
+.div2 > h1{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+}
+.project{
+    height: max-content;
+    border-radius: 10px;
+    margin: 0.38rem;
+    display: inline-grid;
+    height: max-content;
+    border-radius: 10px;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin: 0.25rem;
+}
+.project:hover{
+    transform: scale(1.1);
+}
+.text{
+    background-color: #F6CE46;
+    text-align: center;
+    margin-top: 0px;
+}
+.project > section> .img > img{
+    background-color: #F6CE46;
+    width:200px;
+}
+.project > section> .img> img,.text{
+    border-radius: 10px;
+}
+.div3{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    width: 20em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.form  > *{
+    margin-bottom: 10px;
+}
+.form > .subbtn > button{
+    background-color: #2C2C2C;
+    color: #fff;
+    width: 72px;
+    padding: 4px;
+    border-radius: 5px;
+}
+.form > .subbtn > button:hover{
+ background-color: #FE573E;
+ cursor: pointer;
+}
+.div4{
+    background-color: #F5CE45;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}

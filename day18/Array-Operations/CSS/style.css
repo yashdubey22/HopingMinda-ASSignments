@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    margin: 12px 6px;
+    padding: 2px 25px;
+    color: #fff;
+    border-radius: 6px;
+}
+#inp{
+    width: max-content;
+    border-radius: 6px;
+}
+#push{
+    background-color: green;
+}
+#pop{
+    background-color: rgb(14, 14, 193);
+}
+#shift{
+    background-color: blueviolet;
+}
+#unshift{
+    background-color: rgb(198, 134, 14);
+}

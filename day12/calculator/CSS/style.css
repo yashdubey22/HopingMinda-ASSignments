@@ -1,0 +1,53 @@
+body{
+    background-color: #374765;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.mid-cen{
+    justify-content: center;
+    align-items: center;
+}
+#bg-red{
+    background-color: #DB4C2C;
+    color: #fff;
+}
+#Stl-blu{
+    padding-left: 7px;
+    background-color: #617299;
+    color: #fff;
+}
+.row > button{
+    font-size: 15px;
+    box-shadow: 1px 2px 3px black;
+    background-color: #E9E3DC;
+    margin: 6px;
+    width: 43px;
+    padding: 9px;
+}
+#inp{
+    text-align: right;
+    color: #fff;
+    background-color: #162035;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+    width: 200px;
+    font-size: large;
+}
+.row5{
+    width: 233px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.row5 > button{
+    width: 100px;
+}

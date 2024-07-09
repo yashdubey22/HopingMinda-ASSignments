@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    height: 5em;
+    display: flex;
+    background-color: #006699;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-block-end: 1px solid #012144;
+}
+.left > .topleft{
+    height: 2em;
+    display: flex;
+    background-color: #006699;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+}
+.right{
+    background-color: #012144;
+    color: #fff;
+    width: 21em;
+    height: -webkit-fill-available;
+}
+.content{
+    display: flex; 
+    height: 86.5vh;  
+}
+footer{
+    background-color: #012144;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

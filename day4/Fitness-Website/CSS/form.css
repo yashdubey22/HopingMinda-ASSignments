@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.f-main{
+    border: 1px solid black;
+    width: 225px;
+    padding: 20px;
+    background-color: #b7d1e3;
+    border-radius: 15px;
+}
+.wkf{
+    width: -webkit-fill-available;
+}
+input{
+    margin-bottom: 8px;
+    padding: 5px;
+}
+input::placeholder{
+    text-align: center;
+}
+h1{
+    margin: 11px 0px;
+    color: blueviolet;
+}
+button{
+    background-color: blueviolet;
+    color: #fff;
+}
+.bor{
+    border-radius: 3px;
+}

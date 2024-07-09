@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.SLbtn{
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color:mediumslateblue;
+    color: #fff;
+}
+.nav_link::after{
+    content: '';
+    height: 3px;
+    width: 0px;
+    background-color: rgb(218, 37, 238);
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    transition: 0.3s;
+}
+.nav_link:hover::after{
+    width: 100%;
+}
+nav{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+main > nav > ul > li> a{
+    color: #fff;
+    position: relative;
+}
+main > nav > ul > li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.wlcm{
+    margin: 10px;
+    background-color:  rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px ;
+}
+.aLeft{
+    margin-left: 125px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.aLeft > h1,h2{
+    text-align: left;
+}
+.aLeft > h1{
+    color: blueviolet;
+}
+.wlcm > img{
+    height: 450px;
+}
+
+.article{
+        margin: 75px 50px;
+        display: flex;
+        align-items: center;
+}
+.article > img{
+    width: 300px;
+    border-radius: 10px;
+}
+.article > section{
+    margin-left: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.secsection > section{
+    margin-left: 0px;
+    margin-right: 50px;
+}
+footer{
+    align-items: center;
+    display: flex;
+    height: 80px;
+    color: #fff;
+    justify-content: space-around;
+    background-color: #1f1f1f;
+}
+footer > div > p{
+    margin-top: 10px;
+}
+
+/* Nutrition CSS */
+
+.nt-main > img{
+    width: -webkit-fill-available;
+    margin: 16px 5px;
+    height: 80vh;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px ;
+}
+.neutarticle{
+    margin: 75px 50px;
+    display: flex;
+}
+.cntr{
+    text-align: center;
+}
+.neutarticle > img{
+    width: 608px;
+    height: 354px;
+    border-radius: 15px;
+}
+.neutarticle > section{
+    display: block;
+    margin-left: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.rev > section{
+    margin-right: 60px;
+    margin-left: 0px;
+}
+.blog_head{
+    margin: 35px;
+}
